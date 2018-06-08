@@ -110,7 +110,7 @@ class LW_Model extends BaseModel
 
 			$view_data["code"] = 0;
 			$view_data["msg"] = "登陆成功";
-			$view_data["name"] = $data["name"];
+			$view_data["name"] = $exist["name"];
 
 			return $view_data;
 		}

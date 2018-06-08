@@ -77,7 +77,7 @@ class LWController extends BaseController
 	    // 查询对手上次落点
         parent::$route['request_another_point'] = 'doRequestAnotherPoint';
         // 更新自己落点
-        parent::$route['doUpdatePoint'] = 'doUpdatePoint';
+        parent::$route['update_point'] = 'doUpdatePoint';
 	}
 
 }

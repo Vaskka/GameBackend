@@ -8,7 +8,7 @@ class Setting
 {
 	/* config for mysql */
 	// mysql 用户名
-	const MYSQL_USER = "test";
+	const MYSQL_USER = "root";
 	// mysql 密码
 	const MYSQL_PASSWORD = "czm19990216";
 	// mysql url
